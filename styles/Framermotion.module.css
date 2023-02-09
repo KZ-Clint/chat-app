@@ -1,0 +1,43 @@
+.gendiv{
+    width: 100vw;
+    height: calc(100vh - 50px);
+    /* height: 100vh; */
+    background: purple;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div2{
+    background: white;
+    border-radius: 30px;
+    width: 150px;
+    height: 150px;
+}
+.text{
+    font-size: 20px;
+    text-align: center;
+}
+.button{
+    border: none;
+    padding: 10px 30px;
+    background: white;
+    border-radius: 10px;
+}
+.pizzasvg{
+    width: 200px;
+    background: orange;
+
+}
+.pizzasvg2{
+    width: 200px;
+    height: 300px;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-end;
+}

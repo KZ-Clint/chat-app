@@ -12,7 +12,14 @@ a {
 }
 
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
+}
+
+.homecontainer{
+  display: flex;
+  width: 100%;
 }
 
 @media (prefers-color-scheme: dark) {
