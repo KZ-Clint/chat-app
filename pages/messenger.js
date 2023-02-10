@@ -10,7 +10,7 @@ import Message from '../components/Message'
 import Chatonline from '../components/subcomp/Chatonline'
 import io from 'socket.io-client'
 
-const socket = io.connect("http://localhost:5000")
+const socket = io.connect(baseUrl)
 
 export default function Messenger ({token,userdata, CUP,CN,CA}) {
   
